@@ -93,13 +93,17 @@
     img:not(.whatsapp-icon) { /* استثناء أيقونة الواتساب */
         display: none;
     }
-    /* إظهار أيقونة الواتساب فقط */
+    /* أيقونة الواتساب داخل الزر العائم */
     .whatsapp-icon {
-      width: 24px;
-      height: 24px;
+      width: 28px; /* حجم أكبر قليلاً للأيقونة */
+      height: 28px; /* حجم أكبر قليلاً للأيقونة */
       margin: 0;
       border-radius: 0;
-      display: inline-block; /* إظهار الأيقونة هنا */
+      display: inline-block;
+      vertical-align: middle; /* لمحاذاة أفضل مع النص */
+      background-color: white; /* خلفية بيضاء للأيقونة */
+      padding: 3px; /* مسافة داخلية لظهور الإطار الأخضر حولها */
+      border-radius: 50%; /* لجعلها دائرية */
     }
 
     .call-now {
@@ -136,14 +140,16 @@
     .faq p strong {
       color: #002244; /* أزرق داكن جداً للأسئلة لزيادة التباين */
     }
+    /* تصميم زر الواتساب الجديد */
     .whatsapp {
       position: fixed;
       bottom: 30px;
       left: 30px;
-      background: #1a9e52; /* أخضر أغمق لزيادة التباين مع النص الأبيض */
-      color: white; /* لون نص أبيض لتباين ممتاز */
-      padding: 15px 25px;
-      border-radius: 50px;
+      background-color: white; /* خلفية بيضاء */
+      border: 2px solid #25d366; /* إطار أخضر */
+      color: #25d366; /* نص أخضر */
+      padding: 10px 20px; /* مسافة داخلية أقل لجعله مستطيلاً أكثر */
+      border-radius: 30px; /* حواف مستديرة */
       text-decoration: none;
       font-weight: bold;
       box-shadow: 0 3px 7px rgba(0,0,0,0.15);
@@ -152,9 +158,20 @@
       align-items: center;
       gap: 10px;
       min-height: 48px; /* لضمان حجم منطقة النقر الكافي */
-      min-width: 48px; /* لضمان حجم منطقة النقر الكافي */
-      justify-content: center; /* لتركيز المحتوى داخل الزر إذا أصبح أكبر */
+      min-width: unset; /* لإلغاء الحد الأدنى للعرض السابق */
+      justify-content: center;
+      font-size: 1.1em; /* حجم خط مناسب */
+      transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
     }
+    .whatsapp:hover {
+      background-color: #25d366; /* خلفية خضراء عند التحويم */
+      color: white; /* نص أبيض عند التحويم */
+    }
+    .whatsapp:hover .whatsapp-icon {
+        background-color: #25d366; /* اجعل خلفية الأيقونة خضراء عند التحويم */
+        filter: invert(100%) brightness(200%); /* لجعل الأيقونة بيضاء عند التحويم */
+    }
+
     .reviewer {
       font-weight: bold;
       color: #002244; /* أزرق داكن جداً لاسم المراجع لزيادة التباين */
