@@ -7,7 +7,8 @@
   <meta name="description" content="شركة كشف تسربات المياه بالرياض. نقدم حلولاً فورية وموثوقة لجميع مشاكل تسربات المياه، عزل حمامات وخزانات ومسابح، تسليك مجاري، بأحدث الأجهزة والتقنيات. كشف مجاني عند الإصلاح وخصم 20% للعملاء الجدد. تقارير معتمدة وفحص شامل للبيوت والفلل. اتصل بنا الآن!">
   <meta property="og:title" content="شركة كشف تسربات المياه بالرياض - كشف تسربات، عزل، تسليك مجاري بخصومات وعروض مميزة">
   <meta property="og:description" content="أفضل شركة كشف تسربات بالرياض بدون تكسير بأحدث الأجهزة وضمان كامل. خبراء في عزل الحمامات، عزل الخزانات، تسليك المجاري، عزل المسابح، وكشف أسباب ارتفاع فاتورة المياه. خصم 20% وكشف مجاني عند الإصلاح!">
-  <meta property="og:image" content="https://i.imgur.com/0kdD4as.jpg"> <meta property="og:type" content="website">
+  <meta property="og:image" content="https://i.imgur.com/0kdD4as.jpg">
+  <meta property="og:type" content="website">
   <title>شركة كشف تسربات المياه بالرياض | خصم 20% | كشف مجاني</title>
   <style>
     body {
@@ -89,11 +90,11 @@
       color: #212121; /* تأكيد لون النص لزيادة التباين */
     }
     /* إخفاء جميع الصور تماماً لضمان عدم تأثيرها على إمكانية الوصول إذا لم تكن تحتوي على سمات alt مناسبة */
-    img {
+    img:not(.whatsapp-icon) { /* استثناء أيقونة الواتساب */
         display: none;
     }
     /* إظهار أيقونة الواتساب فقط */
-    .whatsapp img {
+    .whatsapp-icon {
       width: 24px;
       height: 24px;
       margin: 0;
@@ -139,7 +140,7 @@
       position: fixed;
       bottom: 30px;
       left: 30px;
-      background: #1a9e52; /* **تم التعديل: أخضر أغمق لزيادة التباين مع النص الأبيض** */
+      background: #1a9e52; /* أخضر أغمق لزيادة التباين مع النص الأبيض */
       color: white; /* لون نص أبيض لتباين ممتاز */
       padding: 15px 25px;
       border-radius: 50px;
@@ -150,9 +151,9 @@
       display: flex;
       align-items: center;
       gap: 10px;
-      min-height: 48px; /* **تم الإضافة: لضمان حجم منطقة النقر الكافي** */
-      min-width: 48px; /* **تم الإضافة: لضمان حجم منطقة النقر الكافي** */
-      justify-content: center; /* **تم الإضافة: لتركيز المحتوى داخل الزر إذا أصبح أكبر** */
+      min-height: 48px; /* لضمان حجم منطقة النقر الكافي */
+      min-width: 48px; /* لضمان حجم منطقة النقر الكافي */
+      justify-content: center; /* لتركيز المحتوى داخل الزر إذا أصبح أكبر */
     }
     .reviewer {
       font-weight: bold;
@@ -321,7 +322,7 @@
 </footer>
 
 <a class="whatsapp" href="https://wa.me/966561512622" target="_blank" aria-label="تواصل معنا عبر واتساب">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt="أيقونة واتساب">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png" alt="أيقونة واتساب" class="whatsapp-icon">
   تواصل واتساب
 </a>
 
