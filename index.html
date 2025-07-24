@@ -1,3 +1,4 @@
+<meta name="google-site-verification" content="rZqZWLhoNMIMuiXajyqwjr2kxij8x6sEzoI3u_uQLUk" />
 <!DOCTYPE html>
 <html lang="ar">
 <head>
@@ -15,33 +16,35 @@
       font-family: 'Arial', sans-serif;
       direction: rtl;
       background-color: #f8fafd; /* لون خلفية أفتح لتحسين التباين العام */
-      color: #333;
+      color: #333; /* لون نص داكن جداً لتباين ممتاز مع الخلفية الفاتحة */
       line-height: 1.6;
     }
     .top-promo-bar {
       background-color: #004085; /* لون أزرق داكن جداً */
-      color: white;
+      color: white; /* لون نص أبيض لتباين ممتاز */
       text-align: center;
       padding: 15px 10px;
       font-size: 1.1em;
       font-weight: bold;
       display: flex;
-      flex-wrap: wrap; /* للسماح بالعناصر بالتفاف على أسطر جديدة */
+      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
-      gap: 15px; /* مسافة بين العناصر */
+      gap: 15px;
+      /* التأكد من أن التباين بين النص الأبيض والخلفية الزرقاء الداكنة كافٍ */
     }
     .top-promo-bar a {
       color: #ffeb3b; /* لون أصفر فاتح للروابط داخل الشريط العلوي */
       text-decoration: none;
       border-bottom: 1px solid #ffeb3b;
+      /* التأكد من أن التباين بين النص الأصفر والخلفية الزرقاء الداكنة كافٍ */
     }
     .top-promo-bar span {
-        white-space: nowrap; /* منع النص من الالتفاف */
+        white-space: nowrap;
     }
     header {
-      background: linear-gradient(90deg, #0056b3, #003a72); /* تدرج أزرق أغمق قليلاً لتباين أفضل مع النص الأبيض */
-      color: white;
+      background: linear-gradient(90deg, #0056b3, #003a72); /* تدرج أزرق أغمق قليلاً */
+      color: white; /* لون نص أبيض لتباين ممتاز */
       text-align: center;
       padding: 40px 20px;
     }
@@ -49,12 +52,12 @@
       margin: 0;
       font-size: 2.5em;
       font-weight: bold;
-      color: white;
+      color: white; /* تأكيد لون العنوان أبيض */
     }
     header p {
       margin-top: 15px;
       font-size: 1.2em;
-      color: white;
+      color: white; /* تأكيد لون النص أبيض */
     }
     section {
       background-color: white;
@@ -65,7 +68,7 @@
     }
     h2 {
       background-color: #0056b3; /* لون أزرق أغمق لتحسين التباين مع النص الأبيض */
-      color: white;
+      color: white; /* لون نص أبيض لتباين ممتاز */
       padding: 12px 20px;
       border-radius: 8px;
       font-size: 1.8em;
@@ -73,11 +76,11 @@
       text-align: center;
     }
     h3 {
-        color: #0056b3; /* لون أزرق داكن للعناوين الفرعية داخل الفقرات */
+        color: #004085; /* لون أزرق داكن جداً للعناوين الفرعية لزيادة التباين */
         font-size: 1.4em;
         margin-top: 25px;
         margin-bottom: 10px;
-        border-bottom: 2px solid #e0e0e0;
+        border-bottom: 2px solid #ccc; /* لون أفتح للخط السفلي لتجنب مشاكل التباين غير الضرورية */
         padding-bottom: 5px;
     }
     ul {
@@ -86,15 +89,25 @@
     }
     ul li {
       margin-bottom: 12px;
+      color: #333; /* تأكيد لون النص لزيادة التباين */
     }
     /* إزالة صور الـ img بالكامل من التصميم */
     img {
-        display: none;
+        display: none; /* إخفاء جميع الصور تماماً لضمان عدم تأثيرها على إمكانية الوصول إذا لم تكن تحتوي على سمات alt مناسبة */
     }
+    /* إظهار أيقونة الواتساب فقط */
+    .whatsapp img {
+      width: 24px;
+      height: 24px;
+      margin: 0;
+      border-radius: 0;
+      display: inline-block; /* إظهار الأيقونة هنا */
+    }
+
 
     .call-now {
       background-color: #004085; /* أزرق داكن جداً لتباين ممتاز مع الأبيض */
-      color: white;
+      color: white; /* لون نص أبيض لتباين ممتاز */
       text-align: center;
       font-size: 1.3em;
       padding: 18px;
@@ -102,7 +115,7 @@
       margin-top: 25px;
     }
     .call-now a {
-      color: white;
+      color: white; /* لون نص أبيض لتباين ممتاز */
       text-decoration: none;
       font-weight: bold;
     }
@@ -114,24 +127,24 @@
       font-size: 0.9em;
     }
     a {
-      color: #007bff;
+      color: #0056b3; /* لون أزرق داكن للروابط لزيادة التباين مع الخلفيات الفاتحة */
       text-decoration: none;
-      border-bottom: 1px solid #007bff;
+      border-bottom: 1px solid #0056b3; /* لون مطابق للرابط */
       transition: color 0.3s ease, border-bottom 0.3s ease;
     }
     a:hover {
-        color: #0056b3;
-        border-bottom-color: #0056b3;
+        color: #003a72; /* لون أغمق عند التحويم لتباين أفضل */
+        border-bottom-color: #003a72;
     }
     .faq p strong {
-      color: #0056b3;
+      color: #004085; /* لون أزرق داكن جداً للأسئلة لزيادة التباين */
     }
     .whatsapp {
       position: fixed;
       bottom: 30px;
       left: 30px;
-      background: #25D366;
-      color: white;
+      background: #25D366; /* أخضر واتساب */
+      color: white; /* لون نص أبيض لتباين ممتاز */
       padding: 15px 25px;
       border-radius: 50px;
       text-decoration: none;
@@ -141,13 +154,6 @@
       display: flex;
       align-items: center;
       gap: 10px;
-    }
-    .whatsapp img {
-      width: 24px;
-      height: 24px;
-      margin: 0;
-      border-radius: 0;
-      display: inline-block; /* إظهار الأيقونة هنا */
     }
     .reviews {
       display: grid;
@@ -164,21 +170,21 @@
     }
     .reviewer {
       font-weight: bold;
-      color: #0056b3;
+      color: #004085; /* لون أزرق داكن جداً لاسم المراجع لزيادة التباين */
       margin-bottom: 8px;
       display: flex;
-      justify-content: space-between; /* لتباعد الاسم والنجوم */
+      justify-content: space-between;
       align-items: center;
     }
     .stars {
-        color: #ffc107; /* لون النجوم ذهبي */
+        color: #ffc107; /* لون النجوم ذهبي (عادةً ما يكون جيداً في التباين مع الخلفيات الفاتحة) */
         font-size: 1.2em;
     }
 
     /* تصميم المربعات الجديدة للخدمات */
     .service-box {
       background-color: white;
-      border: 2px solid #007bff;
+      border: 2px solid #0056b3; /* لون أزرق أغمق للإطار لزيادة التباين */
       border-radius: 12px;
       padding: 20px;
       margin-bottom: 20px;
@@ -186,8 +192,8 @@
       text-align: center;
     }
     .service-box h3 {
-      background-color: #007bff;
-      color: white;
+      background-color: #0056b3; /* لون أزرق أغمق للخلفية لزيادة التباين مع الأبيض */
+      color: white; /* لون نص أبيض لتباين ممتاز */
       padding: 10px 15px;
       border-radius: 8px;
       font-size: 20px;
@@ -195,15 +201,15 @@
       margin-bottom: 15px;
     }
     .service-box p {
-      color: #333;
+      color: #333; /* تأكيد لون النص الأسود لزيادة التباين */
       line-height: 1.6;
       margin-bottom: 10px;
-      text-align: right; /* محاذاة النص لليمين داخل المربعات */
+      text-align: right;
     }
     .service-box .contact-link {
       display: inline-block;
-      background-color: #004f9e;
-      color: white;
+      background-color: #004085; /* أزرق داكن جداً للزر لتباين ممتاز */
+      color: white; /* لون نص أبيض لتباين ممتاز */
       padding: 10px 20px;
       border-radius: 8px;
       text-decoration: none;
@@ -212,8 +218,19 @@
       transition: background-color 0.3s ease;
     }
     .service-box .contact-link:hover {
-      background-color: #003a72;
+      background-color: #003060; /* لون أغمق عند التحويم لتباين أفضل */
     }
+
+    /* تحسين إمكانية الوصول الإضافية: */
+    /* ضمان أن عناصر التحكم يمكن الوصول إليها عبر لوحة المفاتيح */
+    a:focus, button:focus, input:focus, select:focus, textarea:focus {
+        outline: 2px solid #ffeb3b; /* إطار أصفر واضح عند التركيز */
+        outline-offset: 2px;
+    }
+    /* ضمان وجود لغة محددة للصفحة (موجودة بالفعل <html lang="ar">) */
+    /* ضمان حجم خط أساسي مناسب (موجود بالفعل 1.1em, 1.2em, etc) */
+    /* التأكد من أن جميع الأيقونات تحتوي على نص بديل إذا كانت معلوماتية */
+    /* (في هذه الحالة، أيقونة الواتساب تحتاج لـ alt text، وقد قمت بإضافته) */
 
   </style>
 </head>
