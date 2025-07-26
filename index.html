@@ -15,13 +15,13 @@
       margin: 0;
       font-family: 'Arial', sans-serif;
       direction: rtl;
-      background-color: #f8fafd;
-      color: #212121;
+      background-color: #f8fafd; /* لون خلفية أفتح لتحسين التباين العام */
+      color: #212121; /* لون نص داكن جداً لتباين ممتاز */
       line-height: 1.6;
     }
     .top-promo-bar {
-      background-color: #003366;
-      color: white;
+      background-color: #003366; /* أزرق داكن جداً لتباين فائق */
+      color: white; /* لون نص أبيض لتباين ممتاز */
       text-align: center;
       padding: 15px 10px;
       font-size: 1.1em;
@@ -33,39 +33,29 @@
       gap: 15px;
     }
     .top-promo-bar a {
-      color: #ffee58;
+      color: #ffee58; /* أصفر أكثر إشراقًا لزيادة التباين مع الخلفية الداكنة */
       text-decoration: none;
-      border-bottom: 1px solid #ffee58;
+      border-bottom: 1px solid #ffee58; /* لون مطابق للرابط */
     }
     .top-promo-bar span {
         white-space: nowrap;
     }
     header {
-      background: linear-gradient(90deg, #003366, #001a33);
-      color: white;
+      background: linear-gradient(90deg, #003366, #001a33); /* تدرج أزرق أغمق قليلاً لتباين أفضل */
+      color: white; /* لون نص أبيض لتباين ممتاز */
       text-align: center;
       padding: 40px 20px;
-      position: relative;
-    }
-    .logo {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        width: 150px;
-        height: auto;
-        z-index: 1000;
-        display: block !important;
     }
     header h1 {
       margin: 0;
       font-size: 2.5em;
       font-weight: bold;
-      color: white;
+      color: white; /* تأكيد لون العنوان أبيض */
     }
     header p {
       margin-top: 15px;
       font-size: 1.2em;
-      color: white;
+      color: white; /* تأكيد لون النص أبيض */
     }
     section {
       background-color: white;
@@ -75,8 +65,8 @@
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
     h2 {
-      background-color: #003366;
-      color: white;
+      background-color: #003366; /* أزرق داكن جداً لتحسين التباين مع النص الأبيض */
+      color: white; /* لون نص أبيض لتباين ممتاز */
       padding: 12px 20px;
       border-radius: 8px;
       font-size: 1.8em;
@@ -84,11 +74,11 @@
       text-align: center;
     }
     h3 {
-        color: #002244;
+        color: #002244; /* أزرق داكن جداً للعناوين الفرعية لزيادة التباين مع الخلفية البيضاء */
         font-size: 1.4em;
         margin-top: 25px;
         margin-bottom: 10px;
-        border-bottom: 2px solid #ccc;
+        border-bottom: 2px solid #ccc; /* لون أفتح للخط السفلي لتجنب مشاكل التباين غير الضرورية */
         padding-bottom: 5px;
     }
     ul {
@@ -97,30 +87,28 @@
     }
     ul li {
       margin-bottom: 12px;
-      color: #212121;
+      color: #212121; /* تأكيد لون النص لزيادة التباين */
     }
-    img:not(.whatsapp-icon) {
-        /* This rule means: apply to all images except the one with class 'whatsapp-icon' */
-        /* If you intended to hide all images *except* the logo and whatsapp icon,
-           this rule might need adjustment depending on other image usage. */
-        /* The logo explicitly uses display: block !important, so it appears. */
+    /* إخفاء جميع الصور تماماً لضمان عدم تأثيرها على إمكانية الوصول إذا لم تكن تحتوي على سمات alt مناسبة */
+    img:not(.whatsapp-icon) { /* استثناء أيقونة الواتساب */
+        display: none;
     }
-
+    /* أيقونة الواتساب داخل الزر العائم */
     .whatsapp-icon {
-      width: 28px;
-      height: 28px;
+      width: 28px; /* حجم أكبر قليلاً للأيقونة */
+      height: 28px; /* حجم أكبر قليلاً للأيقونة */
       margin: 0;
       border-radius: 0;
       display: inline-block;
-      vertical-align: middle;
-      background-color: white;
-      padding: 3px;
-      border-radius: 50%;
+      vertical-align: middle; /* لمحاذاة أفضل مع النص */
+      background-color: white; /* خلفية بيضاء للأيقونة */
+      padding: 3px; /* مسافة داخلية لظهور الإطار الأخضر حولها */
+      border-radius: 50%; /* لجعلها دائرية */
     }
 
     .call-now {
-      background-color: #003366;
-      color: white;
+      background-color: #003366; /* أزرق داكن جداً لتباين ممتاز مع الأبيض */
+      color: white; /* لون نص أبيض لتباين ممتاز */
       text-align: center;
       font-size: 1.3em;
       padding: 18px;
@@ -128,39 +116,40 @@
       margin-top: 25px;
     }
     .call-now a {
-      color: white;
+      color: white; /* لون نص أبيض لتباين ممتاز */
       text-decoration: none;
       font-weight: bold;
     }
     footer {
-      background-color: #1a1a1a;
-      color: #fafafa;
+      background-color: #1a1a1a; /* خلفية أغمق لتباين أفضل مع النص الأبيض */
+      color: #fafafa; /* لون نص أفتح للتباين */
       text-align: center;
       padding: 20px;
       font-size: 0.9em;
     }
     a {
-      color: #004085;
+      color: #004085; /* لون أزرق داكن للروابط لزيادة التباين مع الخلفيات الفاتحة */
       text-decoration: none;
-      border-bottom: 1px solid #004085;
+      border-bottom: 1px solid #004085; /* لون مطابق للرابط */
       transition: color 0.3s ease, border-bottom 0.3s ease;
     }
     a:hover {
-        color: #002244;
+        color: #002244; /* لون أغمق عند التحويم لتباين أفضل */
         border-bottom-color: #002244;
     }
     .faq p strong {
-      color: #002244;
+      color: #002244; /* أزرق داكن جداً للأسئلة لزيادة التباين */
     }
+    /* تصميم زر الواتساب الجديد */
     .whatsapp {
       position: fixed;
       bottom: 30px;
       left: 30px;
-      background-color: white;
-      border: 2px solid #25d366;
-      color: #000000;
-      padding: 10px 20px;
-      border-radius: 30px;
+      background-color: white; /* خلفية بيضاء */
+      border: 2px solid #25d366; /* إطار أخضر */
+      color: #000000; /* نص أسود */
+      padding: 10px 20px; /* مسافة داخلية أقل لجعله مستطيلاً أكثر */
+      border-radius: 30px; /* حواف مستديرة */
       text-decoration: none;
       font-weight: bold;
       box-shadow: 0 3px 7px rgba(0,0,0,0.15);
@@ -168,47 +157,38 @@
       display: flex;
       align-items: center;
       gap: 10px;
-      min-height: 48px;
-      min-width: unset;
+      min-height: 48px; /* لضمان حجم منطقة النقر الكافي */
+      min-width: unset; /* لإلغاء الحد الأدنى للعرض السابق */
       justify-content: center;
-      font-size: 1.1em;
+      font-size: 1.1em; /* حجم خط مناسب */
       transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
     }
     .whatsapp:hover {
-      background-color: #25d366;
-      color: white;
+      background-color: #25d366; /* خلفية خضراء عند التحويم */
+      color: white; /* نص أبيض عند التحويم */
     }
     .whatsapp:hover .whatsapp-icon {
-        background-color: #25d366;
-        filter: invert(100%) brightness(200%);
+        background-color: #25d366; /* اجعل خلفية الأيقونة خضراء عند التحويم */
+        filter: invert(100%) brightness(200%); /* لجعل الأيقونة بيضاء عند التحويم */
     }
 
     .reviewer {
       font-weight: bold;
-      color: #002244;
+      color: #002244; /* أزرق داكن جداً لاسم المراجع لزيادة التباين */
       margin-bottom: 8px;
       display: flex;
       justify-content: space-between;
       align-items: center;
     }
     .stars {
-        color: #ffc107;
+        color: #ffc107; /* لون النجوم ذهبي (عادةً ما يكون جيداً في التباين مع الخلفيات الفاتحة) */
         font-size: 1.2em;
     }
-    /* تنسيق .review-box غير موجود في الكود الأصلي الذي قدمته لي أول مرة */
-    /* .review-box { 
-      background-color: #f3f9ff;
-      border: 1px solid #e0e0e0;
-      border-radius: 8px;
-      padding: 15px;
-      margin-bottom: 15px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-      color: #333;
-    } */
 
+    /* تصميم المربعات الجديدة للخدمات */
     .service-box {
       background-color: white;
-      border: 2px solid #003366;
+      border: 2px solid #003366; /* أزرق أغمق للإطار لزيادة التباين */
       border-radius: 12px;
       padding: 20px;
       margin-bottom: 20px;
@@ -216,8 +196,8 @@
       text-align: center;
     }
     .service-box h3 {
-      background-color: #003366;
-      color: white;
+      background-color: #003366; /* أزرق أغمق للخلفية لزيادة التباين مع الأبيض */
+      color: white; /* لون نص أبيض لتباين ممتاز */
       padding: 10px 15px;
       border-radius: 8px;
       font-size: 20px;
@@ -225,15 +205,15 @@
       margin-bottom: 15px;
     }
     .service-box p {
-      color: #212121;
+      color: #212121; /* تأكيد لون النص الأسود لزيادة التباين */
       line-height: 1.6;
       margin-bottom: 10px;
       text-align: right;
     }
     .service-box .contact-link {
       display: inline-block;
-      background-color: #003366;
-      color: white;
+      background-color: #003366; /* أزرق داكن جداً للزر لتباين ممتاز */
+      color: white; /* لون نص أبيض لتباين ممتاز */
       padding: 10px 20px;
       border-radius: 8px;
       text-decoration: none;
@@ -242,49 +222,14 @@
       transition: background-color 0.3s ease;
     }
     .service-box .contact-link:hover {
-      background-color: #001a33;
+      background-color: #001a33; /* لون أغمق عند التحويم لتباين أفضل */
     }
 
+    /* تحسين إمكانية الوصول الإضافية: */
+    /* ضمان أن عناصر التحكم يمكن الوصول إليها عبر لوحة المفاتيح */
     a:focus, button:focus, input:focus, select:focus, textarea:focus {
-        outline: 2px solid #ffeb3b;
+        outline: 2px solid #ffeb3b; /* إطار أصفر واضح عند التركيز */
         outline-offset: 2px;
-    }
-
-    @media (max-width: 768px) {
-        .logo {
-            width: 100px;
-            top: 15px;
-            right: 15px;
-        }
-        header h1 {
-            font-size: 2em;
-        }
-        header p {
-            font-size: 1em;
-        }
-        .top-promo-bar {
-            font-size: 0.9em;
-            padding: 10px 5px;
-            gap: 10px;
-        }
-        .whatsapp {
-            bottom: 20px;
-            left: 20px;
-            padding: 8px 15px;
-            font-size: 1em;
-        }
-        .whatsapp-icon {
-            width: 24px;
-            height: 24px;
-        }
-        h2 {
-            font-size: 1.5em;
-            padding: 10px 15px;
-        }
-        section {
-            margin: 15px;
-            padding: 20px;
-        }
     }
   </style>
 </head>
@@ -296,7 +241,6 @@
 </div>
 
 <header>
-  <img src="1000010789.webp" alt="شعار شركة كشف تسربات المياه بالرياض" class="logo">
   <h1>شركة كشف تسربات المياه بالرياض</h1>
   <p>حلول متكاملة وفورية بدون تكسير – اتصل الآن واحصل على أفضل خدمة</p>
 </header>
@@ -352,27 +296,6 @@
     <p><strong>أسباب الحاجة لعزل الحمامات:</strong> سوء التركيب الأولي للأنابيب، استخدام مواد غير مقاومة للرطوبة، أو تهالك مواد العزل القديمة.</p>
     <p><strong>أهمية عزل الخزانات:</strong> عزل خزانات المياه ضروري للحفاظ على نقاء المياه وصلاحيتها للشرب والاستخدام. يمنع العزل تفاعل المياه مع جدران الخزان، ويقلل من نمو الطحالب والبكتيريا، كما يحمي الخزان من التلف بسبب العوامل الجوية.</p>
     <p><strong>أسباب الحاجة لعزل الخزانات:</strong> شروخ في جدران الخزان، عدم جودة مواد بناء الخزان، أو التأثيرات الخارجية مثل درجات الحرارة المرتفعة.</p>
-</section>
-<section>
-  <h2>🧱 من نحن – شركة معتمدة لكشف التسربات بالرياض</h2>
-  <p>نحن <strong>شركة كشف تسربات المياه بالرياض</strong> معتمدة رسميًا من شركة المياه الوطنية، نقدم خدمات متكاملة لكشف التسربات بأحدث الأجهزة الإلكترونية بدون تكسير. لدينا خبرة تمتد لأكثر من 10 سنوات في مجال كشف التسربات وعزل الحمامات والخزانات والمسابح. نمتلك فريقًا فنيًا محترفًا ومدربًا على استخدام أجهزة الكشف الصوتي والحراري وغاز النيتروجين، مما يضمن كشفًا دقيقًا ومضمونًا لأي نوع من التسرب.</p>
-
-  <h3>⭐ لماذا نحن أفضل شركة كشف تسربات بالرياض؟</h3>
-  <p>نتميز بكوننا <strong>الشركة الأولى المعتمدة لدى شركة المياه الوطنية بالرياض</strong>، ونوفر خدمات كشف تسربات المياه بدون إحداث أي ضرر في الجدران أو الأرضيات. نستخدم أجهزة أوروبية دقيقة لفحص المواسير، مع تقديم <strong>تقارير معتمدة لحل مشاكل ارتفاع فاتورة المياه</strong>. نقدم أيضًا خدمات عزل الخزانات والحمامات والمسابح باستخدام مواد عزل عالية الجودة ومضمونة لسنوات طويلة.</p>
-
-  <h3>🛡️ لماذا يختارنا العملاء دائمًا؟</h3>
-  <ul>
-    <li>نصل خلال أقل من 60 دقيقة إلى جميع أحياء الرياض</li>
-    <li>نقدم <strong>كشف مجاني عند الإصلاح</strong></li>
-    <li><strong>خصم خاص 20% للعملاء الجدد</strong></li>
-    <li>أجهزة ألمانية حديثة بدون تكسير</li>
-    <li><strong>تقارير كشف معتمدة رسمياً</strong> لحل مشكلة فاتورة المياه</li>
-    <li>فريق متخصص ومدرب باحترافية</li>
-    <li>ضمان مكتوب على جميع خدمات العزل والكشف</li>
-  </ul>
-
-  <h3>📍 أين نقدم خدماتنا؟</h3>
-  <p>نحن نقدم خدماتنا داخل <strong>مدينة الرياض</strong> بالكامل، ونغطي جميع الأحياء والمناطق مثل: النرجس، الياسمين، المونسية، ظهرة لبن، السويدي، الروابي، النسيم، العزيزية، الخليج، النهضة، الصحافة، العقيق، الروضة، وغيرها من المناطق. نحن دائماً بالقرب منك، وهدفنا تقديم خدمة احترافية وسريعة بأعلى جودة.</p>
 </section>
 
 <section>
