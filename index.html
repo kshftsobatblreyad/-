@@ -102,21 +102,24 @@
       text-decoration: none;
       font-weight: bold;
     }
-    /* تم تغيير لون نص زر الاتصال ليكون أبيضًا لزيادة التباين */
+    /* تعديل تصميم زر الاتصال: خلفية متناسقة مع الموقع ونص أبيض لضمان التباين */
     .contact-button {
       display: inline-block;
-      background-color: #ff5722;
-      color: white; /* تم تغيير لون النص هنا */
+      background-color: #003366; /* لون خلفية أزرق داكن لتباين ممتاز مع النص الأبيض */
+      color: #ffffff; /* لون نص أبيض */
+      border: 2px solid #003366;
       padding: 12px 25px;
       border-radius: 8px;
       text-decoration: none;
       font-weight: bold;
       font-size: 1.1em;
       margin-top: 15px;
-      transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
     }
     .contact-button:hover {
-        background-color: #e64a19;
+        background-color: #ffffff;
+        color: #003366;
+        border-color: #003366;
     }
     footer {
       background-color: #1a1a1a;
@@ -138,6 +141,7 @@
     .faq p strong {
       color: #002244;
     }
+    /* تصميم زر الواتساب العائم الجديد بدون صورة */
     .whatsapp {
       position: fixed;
       bottom: 30px;
