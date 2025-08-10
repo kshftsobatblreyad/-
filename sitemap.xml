@@ -1,7 +1,314 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
-<url>
-<loc>https://kshftsobatblreyad.github.io/-/</loc>
-<lastmod>2025-07-24T04:19:19+00:00</lastmod>
-</url>
-</urlset>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="أفضل شركة عزل خزانات وعزل حمامات بالرياض بضمان 10 سنوات. نقدم خدمات عزل مائي وحراري للخزانات والحمامات بأجود مواد العزل (إيبوكسي، بيتومين) وفريق متخصص. اتصل الآن للحصول على خصم خاص!">
+  <meta property="og:title" content="شركة عزل خزانات وحمامات بالرياض | أفضل المواد والضمان | خصم خاص">
+  <meta property="og:description" content="متخصصون في عزل خزانات المياه والحمامات بالرياض لحماية منزلك من التسربات والرطوبة. أجهزة حديثة، مواد عزل معتمدة، وضمان على كافة أعمالنا. احجز خدمتك الآن.">
+  <meta property="og:type" content="website">
+  <title>أفضل شركة عزل خزانات وحمامات بالرياض بضمان 10 سنوات</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      direction: rtl;
+      background-color: #f8fafd;
+      color: #212121;
+      line-height: 1.6;
+    }
+    .top-promo-bar {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 1.1em;
+      font-weight: bold;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+    .top-promo-bar a {
+      color: #ffee58;
+      text-decoration: none;
+      border-bottom: 1px solid #ffee58;
+    }
+    .top-promo-bar span {
+        white-space: nowrap;
+    }
+    header {
+      background: linear-gradient(90deg, #003366, #001a33);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      font-weight: bold;
+      color: white;
+    }
+    header p {
+      margin-top: 15px;
+      font-size: 1.2em;
+      color: white;
+    }
+    section {
+      background-color: white;
+      margin: 20px;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      background-color: #003366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 1.8em;
+      margin-top: 0;
+      text-align: center;
+    }
+    h3 {
+        color: #002244;
+        font-size: 1.4em;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 5px;
+    }
+    ul {
+      padding-right: 30px;
+      list-style-type: disc;
+    }
+    ul li {
+      margin-bottom: 12px;
+      color: #212121;
+    }
+    .call-now {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      font-size: 1.3em;
+      padding: 18px;
+      border-radius: 10px;
+      margin-top: 25px;
+    }
+    .call-now a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .contact-button {
+      display: inline-block;
+      background-color: #ffffff;
+      color: #000000;
+      border: 2px solid #25d366;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-top: 15px;
+      transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    }
+    .contact-button:hover {
+        background-color: #25d366;
+        color: #ffffff;
+        border-color: #25d366;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: #fafafa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    a {
+      color: #004085;
+      text-decoration: none;
+      border-bottom: 1px solid #004085;
+      transition: color 0.3s ease, border-bottom 0.3s ease;
+    }
+    a:hover {
+        color: #002244;
+        border-bottom-color: #002244;
+    }
+    .faq p strong {
+      color: #002244;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 30px;
+      left: 30px;
+      background-color: #ffffff;
+      color: #000000;
+      border: 2px solid #25d366;
+      padding: 15px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 3px 7px rgba(0,0,0,0.15);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 48px;
+      min-width: unset;
+      justify-content: center;
+      font-size: 1.1em;
+      transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    }
+    .whatsapp:hover {
+        background-color: #25d366;
+        color: #ffffff;
+        border-color: #25d366;
+    }
+    .social-media {
+        text-align: center;
+        padding: 20px;
+        background-color: #f1f3f6;
+        border-top: 1px solid #e0e0e0;
+    }
+    .social-media h3 {
+        color: #002244;
+        font-size: 1.4em;
+        margin-bottom: 15px;
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+    .social-media-icons a {
+        display: inline-block;
+        font-size: 1.5em;
+        color: #003366;
+        margin: 0 10px;
+        text-decoration: none;
+        border: 2px solid #003366;
+        width: 40px;
+        height: 40px;
+        line-height: 38px;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+        background-color: #ffffff;
+    }
+    .social-media-icons a:hover {
+        background-color: #003366;
+        color: #ffffff;
+    }
+    .contact-info {
+      text-align: center;
+      padding-top: 20px;
+      font-size: 1.1em;
+    }
+  </style>
+</head>
+<body>
+<div class="top-promo-bar">
+    <span>شركة كشف تسربات المياه بالرياض | <a href="tel:0561512622">اتصل الآن: 0561512622</a></span>
+    <span>خصم 20% على العملاء الجدد</span>
+    <span>عرض خاص: كشف مجاني عند الإصلاح</span>
+</div>
+
+<header>
+  <h1>شركة عزل خزانات وعزل حمامات بالرياض</h1>
+  <p>حماية منزلك من التسربات والرطوبة مع ضمان 10 سنوات</p>
+</header>
+
+<section>
+  <h2>🛡️ خدمات عزل الخزانات المائية بالرياض</h2>
+  <p>نحن أفضل شركة عزل خزانات بالرياض، متخصصون في حماية خزانات المياه من التسربات والتلوث باستخدام أحدث مواد العزل وأفضلها. عزل الخزان ليس مجرد رفاهية، بل هو ضرورة قصوى للحفاظ على سلامة ونقاء المياه التي تستخدمها أنت وعائلتك. يقي العزل خزانك من التشققات، ويمنع نمو البطحالب والبكتيريا، كما يحافظ على درجة حرارة المياه مناسبة.</p>
+  <h3>لماذا تحتاج إلى عزل خزان المياه؟</h3>
+  <ul>
+    <li><strong>حماية المياه من التلوث:</strong> يمنع العزل دخول الأتربة والحشرات والبكتيريا إلى المياه.</li>
+    <li><strong>منع التسربات:</strong> يقضي على مشكلة تسرب المياه من الخزان، التي تسبب رطوبة وتلفاً في أساسات المبنى.</li>
+    <li><strong>توفير المياه:</strong> يمنع هدر المياه الناتج عن التسربات الصغيرة، مما يساهم في تقليل فاتورة المياه.</li>
+    <li><strong>إطالة عمر الخزان:</strong> يحمي الخزان من العوامل الجوية القاسية ويمنع تآكل بنيته.</li>
+  </ul>
+  <h3>أنواع مواد عزل الخزانات التي نستخدمها</h3>
+  <p>نستخدم أفضل مواد العزل المعتمدة والتي تضمن أعلى مستويات الأمان والجودة، منها:</p>
+  <ul>
+    <li><strong>العزل بالإيبوكسي:</strong> يعتبر الأفضل للخزانات الخرسانية، حيث يشكل طبقة عازلة قوية، ناعمة، ومقاومة للبكتيريا، وغير سامة.</li>
+    <li><strong>العزل بالبيتومين:</strong> يستخدم للعزل الخارجي للخزانات، ويوفر حماية ممتازة ضد تسربات المياه والرطوبة.</li>
+    <li><strong>العزل الحراري:</strong> لمنع ارتفاع درجة حرارة المياه في الصيف، مما يحافظ على برودتها.</li>
+  </ul>
+  <div style="text-align: center;">
+      <a href="tel:0561512622" class="contact-button">📞 اتصل الآن لعزل خزانك</a>
+  </div>
+</section>
+
+<section>
+  <h2>🚿 خدمات عزل الحمامات بالرياض</h2>
+  <p>تسربات المياه في الحمامات هي أحد أخطر المشاكل التي قد تواجه منزلك. يمكن أن تؤدي إلى رطوبة في الجدران، وتآكل في حديد التسليح، وظهور عفن وروائح كريهة. نحن في شركتنا نقدم خدمات عزل حمامات شاملة ومتكاملة، باستخدام أحدث الأساليب وأفضل المواد لضمان حماية دائمة لمنزلك.</p>
+  <h3>أهمية عزل الحمامات</h3>
+  <ul>
+    <li><strong>منع الرطوبة:</strong> يوقف انتشار الرطوبة إلى الجدران المجاورة، مما يحمي الدهانات والديكورات.</li>
+    <li><strong>حماية البنية التحتية:</strong> يمنع تآكل أساسات المبنى وحديد التسليح الناتج عن التسرب المستمر.</li>
+    <li><strong>توفير المال:</strong> يجنبك تكاليف الإصلاحات المكلفة والترميمات المستقبلية الناتجة عن أضرار التسربات.</li>
+    <li><strong>بيئة صحية:</strong> يمنع تكون العفن والفطريات التي تسبب مشاكل صحية.</li>
+  </ul>
+  <h3>كيف نقوم بعزل الحمامات؟</h3>
+  <p>فريقنا المتخصص يتبع خطوات دقيقة لضمان جودة العزل:</p>
+  <ol>
+    <li>تنظيف وتجهيز أرضية الحمام والمنطقة المحيطة بالصرف.</li>
+    <li>تطبيق طبقات العزل المائي المناسبة باستخدام مواد عالية الجودة.</li>
+    <li>اختبار العزل بملء الحمام بالماء لمدة 24 ساعة للتأكد من عدم وجود أي تسرب.</li>
+    <li>بعد التأكد من سلامة العزل، يتم البدء بتركيب البلاط بشكل احترافي.</li>
+  </ol>
+  <div style="text-align: center;">
+      <a href="tel:0561512622" class="contact-button">📱 احجز خدمة عزل حمامك الآن</a>
+  </div>
+</section>
+
+<section>
+  <h2>لماذا تختارنا لخدمات العزل؟</h2>
+  <ul>
+    <li><strong>خبرة طويلة:</strong> أكثر من 10 سنوات في مجال العزل بالرياض.</li>
+    <li><strong>مواد عالية الجودة:</strong> نستخدم أفضل مواد العزل المعتمدة عالمياً.</li>
+    <li><strong>فريق متخصص:</strong> فنيون ومهندسون مدربون على أعلى مستوى.</li>
+    <li><strong>ضمان مكتوب:</strong> نقدم ضماناً حقيقياً يصل إلى 10 سنوات على خدمات العزل.</li>
+    <li><strong>أسعار تنافسية:</strong> نقدم أفضل الأسعار في السوق مع عروض وخصومات مستمرة.</li>
+  </ul>
+  <div style="text-align: center;">
+    <p style="font-weight: bold; font-size: 1.2em; color: #003366;">لا تتردد في الاتصال بنا للحصول على استشارة مجانية وتقدير للتكلفة.</p>
+  </div>
+</section>
+
+<section class="contact-info">
+  <h2>📞 تواصل معنا الآن</h2>
+  <div class="call-now">
+    <a href="tel:0561512622">📱 اتصل الآن: 0561512622</a>
+  </div>
+  <p>العنوان: الرياض، المملكة العربية السعودية</p>
+</section>
+
+<section class="social-media">
+  <h3>تابعنا على</h3>
+  <div class="social-media-icons">
+    <a href="https://www.tiktok.com/@azlfoomblryad?_t=ZS-8ykf1IThNNX&_r=1" target="_blank" aria-label="تيك توك">
+      T
+    </a>
+    <a href="https://youtube.com/channel/UCQdqkiBWxBmLbOxowb6hflw?si=JBfegGBlAA2Yu5Vq" target="_blank" aria-label="يوتيوب">
+      Y
+    </a>
+    <a href="https://www.snapchat.com/add/azelfoomblreyad?share_id=EB1xSGKyIvk&locale=ar-SA" target="_blank" aria-label="سناب شات">
+      S
+    </a>
+    <a href="https://www.instagram.com/azlfoomblryad?igsh=M2RjcjE1NjA3dG9p" target="_blank" aria-label="انستغرام">
+      I
+    </a>
+  </div>
+</section>
+
+<footer>
+  <p><strong>©️ 2025 شركة كشف تسربات المياه بالرياض. جميع الحقوق محفوظة.</strong></p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/966561512622" target="_blank" aria-label="تواصل معنا عبر واتساب">
+  تواصل واتساب
+</a>
+
+</body>
+</html>
