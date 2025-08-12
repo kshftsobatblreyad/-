@@ -62,6 +62,7 @@
       padding: 25px 10px; /* تم تعديل الحشو لتكون أقل */
       border-radius: 12px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: center; /* لتوسيط المحتوى */
     }
     h2 {
       background-color: #003366;
@@ -79,10 +80,13 @@
         margin-bottom: 10px;
         border-bottom: 2px solid #ccc;
         padding-bottom: 5px;
+        text-align: center;
     }
     ul {
       padding-right: 30px;
       list-style-type: disc;
+      display: inline-block;
+      text-align: right;
     }
     ul li {
       margin-bottom: 12px;
@@ -102,7 +106,6 @@
       text-decoration: none;
       font-weight: bold;
     }
-    /* تصميم زر الاتصال بخلفية بيضاء وإطار أخضر */
     .contact-button {
       display: inline-block;
       background-color: #ffffff;
@@ -177,7 +180,7 @@
       color: #212121;
       line-height: 1.6;
       margin-bottom: 10px;
-      text-align: right;
+      text-align: center;
     }
     .service-box .contact-link {
       display: inline-block;
@@ -236,8 +239,9 @@
         bottom: 20px;
         left: 20px;
         z-index: 1000;
-        background-color: #25d366;
-        color: white;
+        background-color: #ffffff;
+        color: #000000;
+        border: 2px solid #25d366;
         text-align: center;
         padding: 15px 30px;
         border-radius: 30px;
@@ -248,14 +252,16 @@
     }
     .floating-whatsapp-btn:hover {
         transform: scale(1.05);
+        background-color: #25d366;
+        color: white;
     }
     
-    /* تنسيق فقرات المحتوى لجعلها أعرض */
+    /* تنسيق فقرات المحتوى لجعلها في المنتصف */
     .content-section p {
       font-weight: bold;
-      text-align: justify;
+      text-align: center;
       padding: 0 10px;
-      margin: 10px 0;
+      margin: 10px auto;
     }
   </style>
 </head>
