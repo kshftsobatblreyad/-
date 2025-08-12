@@ -58,8 +58,8 @@
     }
     section {
       background-color: white;
-      margin: 20px;
-      padding: 25px;
+      margin: 20px 5px; /* تم تعديل الهوامش لتكون أقل */
+      padding: 25px 10px; /* تم تعديل الحشو لتكون أقل */
       border-radius: 12px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
@@ -230,48 +230,32 @@
         color: #ffffff;
     }
 
-    .floating-container {
+    /* تنسيقات الأزرار العائمة */
+    .floating-whatsapp-btn {
         position: fixed;
-        bottom: 30px;
-        left: 30px;
+        bottom: 20px;
+        left: 20px;
         z-index: 1000;
-        display: flex;
-        flex-direction: column;
-        gap: 15px;
-        align-items: center;
-    }
-    .floating-button {
-        display: inline-block;
-        background-color: #ffffff;
-        color: #000000;
-        border: 2px solid;
-        padding: 15px 25px;
+        background-color: #25d366;
+        color: white;
+        text-align: center;
+        padding: 15px 30px;
         border-radius: 30px;
         text-decoration: none;
         font-weight: bold;
-        box-shadow: 0 3px 7px rgba(0,0,0,0.15);
-        font-size: 1.1em;
-        min-height: 48px;
-        transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-        white-space: nowrap;
-        text-align: center;
-        width: fit-content;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        transition: transform 0.2s ease-in-out;
     }
-    .floating-whatsapp {
-        border-color: #25d366;
+    .floating-whatsapp-btn:hover {
+        transform: scale(1.05);
     }
-    .floating-whatsapp:hover {
-        background-color: #25d366;
-        color: #ffffff;
-        border-color: #25d366;
-    }
-    .floating-call {
-        border-color: #003366;
-    }
-    .floating-call:hover {
-        background-color: #003366;
-        color: #ffffff;
-        border-color: #003366;
+    
+    /* تنسيق فقرات المحتوى لجعلها أعرض */
+    .content-section p {
+      font-weight: bold;
+      text-align: justify;
+      padding: 0 10px;
+      margin: 10px 0;
     }
   </style>
 </head>
@@ -307,6 +291,22 @@
   </ul>
   <a href="azl-khazant-hamamat.html" class="contact-button">اكتشف خدمات عزل الخزانات والحمامات</a>
 </section>
+
+<section>
+  <h2>أنواع التسربات</h2>
+  <h3>التسربات الظاهرة</h3>
+  <p>هذا النوع من التسربات يكون مرئياً ويسهل اكتشافه، مثل تسرب من صنبور المياه أو وصلة خارجية. على الرغم من سهولة اكتشافها، إلا أنها قد تسبب هدرًا كبيرًا للمياه إذا لم يتم إصلاحها فوراً.</p>
+
+  <h3>التسربات الباطنة والمخفية</h3>
+  <p>تعتبر التسربات الباطنة الأخطر لأنها تحدث داخل الجدران أو تحت الأرضيات دون وجود علامات واضحة. يتم الكشف عنها من خلال ارتفاع فاتورة المياه أو ظهور بقع رطوبة على الجدران. تتطلب هذه التسربات أجهزة كشف متطورة.</p>
+
+  <h3>تسربات الحمامات</h3>
+  <p>تعتبر تسربات الحمامات من المشاكل الشائعة التي تسبب تلفًا في الأرضيات والجدران وتآكلًا في البنية التحتية. غالبًا ما تحدث بسبب تلف الأنابيب أو سوء تركيب مواد العزل، وتؤدي إلى نمو العفن والفطريات.</p>
+
+  <h3>تسربات المطابخ</h3>
+  <p>مثل تسربات الحمامات، يمكن أن تسبب تسربات المطابخ أضرارًا كبيرة بالأثاث والأساسات. غالبًا ما تكون مرتبطة بأنابيب الصرف أو المياه أسفل الحوض، ويمكن أن تؤدي إلى روائح كريهة وتلف في الخزائن والأرضيات.</p>
+</section>
+
 <section class="content-section">
     <h2>خدمات لحام وغسيل الخزانات الأرضية والعلوية</h2>
     <p>
@@ -514,5 +514,8 @@
 <footer>
   <p><strong>©️ 2025 شركة كشف تسربات المياه بالرياض. جميع الحقوق محفوظة.</strong></p>
 </footer>
+
+<a href="https://wa.me/0561512622" class="floating-whatsapp-btn">تواصل واتساب</a>
+
 </body>
 </html>
