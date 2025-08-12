@@ -105,9 +105,9 @@
     /* تصميم زر الاتصال بخلفية بيضاء وإطار أخضر */
     .contact-button {
       display: inline-block;
-      background-color: #ffffff; /* خلفية بيضاء */
-      color: #000000; /* لون نص أسود لضمان التباين */
-      border: 2px solid #25d366; /* إطار أخضر */
+      background-color: #ffffff;
+      color: #000000;
+      border: 2px solid #25d366;
       padding: 12px 25px;
       border-radius: 8px;
       text-decoration: none;
@@ -117,8 +117,8 @@
       transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
     }
     .contact-button:hover {
-        background-color: #25d366; /* خلفية خضراء عند التحويم */
-        color: #ffffff; /* نص أبيض عند التحويم */
+        background-color: #25d366;
+        color: #ffffff;
         border-color: #25d366;
     }
     footer {
@@ -229,6 +229,50 @@
         background-color: #003366;
         color: #ffffff;
     }
+
+    .floating-container {
+        position: fixed;
+        bottom: 30px;
+        left: 30px;
+        z-index: 1000;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+    .floating-button {
+        display: inline-block;
+        background-color: #ffffff;
+        color: #000000;
+        border: 2px solid;
+        padding: 15px 25px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0 3px 7px rgba(0,0,0,0.15);
+        font-size: 1.1em;
+        min-height: 48px;
+        transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+        white-space: nowrap;
+        text-align: center;
+        width: fit-content;
+    }
+    .floating-whatsapp {
+        border-color: #25d366;
+    }
+    .floating-whatsapp:hover {
+        background-color: #25d366;
+        color: #ffffff;
+        border-color: #25d366;
+    }
+    .floating-call {
+        border-color: #003366;
+    }
+    .floating-call:hover {
+        background-color: #003366;
+        color: #ffffff;
+        border-color: #003366;
+    }
   </style>
 </head>
 <body>
@@ -262,30 +306,6 @@
     <li>عزل المسابح وحمايتها من فقدان المياه.</li>
   </ul>
   <a href="azl-khazant-hamamat.html" class="contact-button">اكتشف خدمات عزل الخزانات والحمامات</a>
-<section class="content-section">
-    <h2>أنواع التسربات</h2>
-    <ul>
-        <li>
-            <strong>التسربات الظاهرة:</strong> هي التسربات التي يمكن رؤيتها بالعين المجردة، مثل تسرب من صنبور تالف، أو من وصلات خارجية. على الرغم من سهولة اكتشافها، إلا أنها قد تسبب هدرًا كبيرًا للمياه.
-        </li>
-        <li>
-            <strong>التسربات الباطنة والمخفية:</strong> هذا النوع من التسربات هو الأخطر والأصعب في الاكتشاف. يحدث داخل الجدران أو تحت الأرضيات ولا تظهر له علامات واضحة، وغالبًا ما يتم الاستدلال عليه من خلال ارتفاع مفاجئ في فاتورة المياه أو ظهور بقع رطوبة على الجدران.
-        </li>
-        <li>
-            <strong>تسربات الخزانات:</strong> تحدث في جدران الخزانات الأرضية والعلوية، وتؤدي إلى هدر المياه وتلوثها وتأثر أساسات المبنى.
-        </li>
-        <li>
-            <strong>تسربات الحمامات والمطابخ:</strong> الأكثر شيوعًا وتسبب تلفًا في الجدران والأرضيات، بالإضافة إلى تشوه الدهانات وتآكل البنية التحتية.
-        </li>
-        <li>
-            <strong>تسربات الأسطح:</strong> تحدث غالبًا بسبب مياه الأمطار وتؤثر على سقف المنزل والجدران الداخلية، وتتطلب حلول عزل متخصصة.
-        </li>
-    </ul>
-</section>
-
-  <div style="text-align: center;">
-      <a href="tel:0561512622" class="contact-button">تواصل الآن واحصل على أفضل خدمة</a>
-  </div>
 </section>
 <section class="content-section">
     <h2>خدمات لحام وغسيل الخزانات الأرضية والعلوية</h2>
