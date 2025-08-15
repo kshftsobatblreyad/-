@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ar">
 <head>
@@ -73,29 +72,7 @@ ul li {
   color: #ffffff;
   border-color: #25d366;
 }
-.whatsapp {
-  position: fixed;
-  bottom: 30px;
-  left: 30px;
-  background-color: #ffffff;
-  color: #000000;
-  border: 2px solid #25d366;
-  padding: 15px 25px;
-  border-radius: 30px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1em;
-  z-index: 1000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.3s ease;
-}
-.whatsapp:hover {
-  background-color: #25d366;
-  color: #ffffff;
-  border-color: #25d366;
-}
+
 /* Social media styling */
 .social-media {
     text-align: center;
@@ -133,6 +110,32 @@ ul li {
 .social-media-icons a:hover {
     transform: translateY(-5px);
     box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Floating WhatsApp Button Style */
+.floating-whatsapp-btn {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #25d366;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+.floating-whatsapp-btn:hover {
+    transform: scale(1.05);
+}
+.floating-whatsapp-btn svg {
+    width: 24px;
+    height: 24px;
+    fill: #ffffff;
 }
 </style>
 </head>
@@ -207,7 +210,10 @@ ul li {
   <p><strong>©️ 2025 شركة كشف تسربات المياه بالرياض. جميع الحقوق محفوظة.</strong></p>
 </footer>
 
-<a href="https://wa.me/0561512622" class="floating-whatsapp-btn">تواصل واتساب</a>
+<a href="https://wa.me/0561512622" class="floating-whatsapp-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-whatsapp"><path d="M23 12c0-3.09-1.21-6.02-3.39-8.2c-2.18-2.18-5.11-3.39-8.2-3.39S4.12 1.62 1.94 3.8A11.5 11.5 0 000 12c0 1.95.53 3.86 1.55 5.51L0 24l6.49-1.55a11.52 11.52 0 005.51 1.55c3.09 0 6.02-1.21 8.2-3.39S23 15.09 23 12z" fill="#fff" stroke="none"/><path d="M16.9 14.8c-.2-.1-.7-.4-.8-.5-.2-.1-1.3-.6-1.5-.6-.2 0-.4 0-.6.2s-.7.8-.8.9c-.1.1-.3.1-.6 0-.3-.1-1-.4-2-.9-1.5-1-2.5-2.5-2.8-3-.3-.4 0-.6.1-.8.1-.1.2-.2.3-.3s.2-.3.3-.5.1-.3 0-.5c-.1-.2-.6-.5-.9-.8-.3-.2-.5-.1-.7-.1-.1 0-.3 0-.4.1-.2 0-.7.3-1 .6-.3.3-.6.6-.7.7-.2.2-.4.4-.4.6 0 .2.1.4.3.6.2.2 1.3 2.1 2.8 3.5 1.4 1.4 2.8 1.9 3.2 2.1.3.1.5.1.8.1.3 0 .9-.3 1-.5.1-.2.4-.8.5-.9.1-.1.2-.2.3-.2z" fill="#000" stroke="none"/></svg>
+    تواصل واتساب
+</a>
 
 </body>
 </html>
