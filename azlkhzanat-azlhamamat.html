@@ -18,6 +18,11 @@
       color: #212121;
       line-height: 1.6;
     }
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
     .top-promo-bar {
       background-color: #003366;
       color: white;
@@ -38,6 +43,12 @@
     }
     .top-promo-bar span {
         white-space: nowrap;
+        font-size: 0.9em;
+    }
+    @media (min-width: 768px) {
+        .top-promo-bar span {
+            font-size: 1.1em;
+        }
     }
     header {
       background: linear-gradient(90deg, #003366, #001a33);
@@ -58,10 +69,11 @@
     }
     section {
       background-color: white;
-      margin: 20px;
+      margin: 20px auto;
       padding: 25px;
       border-radius: 12px;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: right;
     }
     h2 {
       background-color: #003366;
@@ -79,14 +91,16 @@
         margin-bottom: 10px;
         border-bottom: 2px solid #ccc;
         padding-bottom: 5px;
+        text-align: right;
     }
-    ul {
+    ul, ol {
       padding-right: 30px;
-      list-style-type: disc;
+      text-align: right;
     }
-    ul li {
+    ul li, ol li {
       margin-bottom: 12px;
       color: #212121;
+      font-size: 1.1em;
     }
     .call-now {
       background-color: #003366;
@@ -143,29 +157,23 @@
     .whatsapp {
       position: fixed;
       bottom: 30px;
-      left: 30px;
+      left: 20px;
       background-color: #ffffff;
       color: #000000;
       border: 2px solid #25d366;
-      padding: 15px 25px;
+      padding: 12px 25px;
       border-radius: 30px;
       text-decoration: none;
       font-weight: bold;
-      box-shadow: 0 3px 7px rgba(0,0,0,0.15);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
       z-index: 1000;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      min-height: 48px;
-      min-width: unset;
-      justify-content: center;
-      font-size: 1.1em;
-      transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+      transition: transform 0.2s ease-in-out;
+      white-space: nowrap;
     }
     .whatsapp:hover {
+        transform: scale(1.05);
         background-color: #25d366;
-        color: #ffffff;
-        border-color: #25d366;
+        color: white;
     }
     .social-media {
         text-align: center;
@@ -214,15 +222,49 @@
         border-radius: 8px;
         box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
+    .center-button {
+        text-align: center;
+    }
+    /* Mobile Specific Styles */
+    @media (max-width: 767px) {
+        h1 {
+            font-size: 2em;
+        }
+        header p {
+            font-size: 1em;
+        }
+        .top-promo-bar span {
+            font-size: 0.8em;
+        }
+        .contact-button {
+            font-size: 0.9em;
+            padding: 10px 20px;
+        }
+        h2 {
+            font-size: 1.5em;
+        }
+        h3 {
+            font-size: 1.2em;
+        }
+        .whatsapp {
+            padding: 12px 20px;
+            font-size: 0.9em;
+            left: 15px;
+        }
+        .social-media-icons a {
+            width: 35px;
+            height: 35px;
+            line-height: 33px;
+        }
+    }
   </style>
 </head>
 <body>
 <div class="top-promo-bar">
-    <span>شركة كشف تسربات المياه بالرياض | <a href="tel:0561512622">اتصل الآن: 0561512622</a></span>
-    <span>خصم 20% على العملاء الجدد</span>
-    <span>عرض خاص: كشف مجاني عند الإصلاح</span>
+    <span>شركة عزل خزانات شركة عزل حمامات  | <a href="tel:0561512622">اتصل الآن: 0561512622</a></span>
+    <span>خصم 30% للعملاء الجدد</span>
 </div>
-
+<div class="container">
 <header>
   <h1>شركة عزل خزانات وعزل حمامات بالرياض</h1>
   <p>حماية منزلك من التسربات والرطوبة مع ضمان 10 سنوات</p>
@@ -231,7 +273,7 @@
 <section>
   <h2>🛡️ خدمات عزل الخزانات المائية بالرياض</h2>
  
-  <p>نحن أفضل شركة عزل خزانات بالرياض، متخصصون في حماية خزانات المياه من التسربات والتلوث باستخدام أحدث مواد العزل وأفضلها. عزل الخزان ليس مجرد رفاهية، بل هو ضرورة قصوى للحفاظ على سلامة ونقاء المياه التي تستخدمها أنت وعائلتك. يقي العزل خزانك من التشققات، ويمنع نمو البطحالب والبكتيريا، كما يحافظ على درجة حرارة المياه مناسبة.</p>
+  <p>نحن أفضل شركة عزل خزانات بالرياض، متخصصون في حماية خزانات المياه من التسربات والتلوث باستخدام أحدث مواد العزل وأفضلها. عزل الخزان ليس مجرد رفاهية، بل هو ضرورة قصوى للحفاظ على سلامة ونقاء المياه التي تستخدمها أنت وعائلتك. يقي العزل خزانك من التشققات، ويمنع نمو الطحالب والبكتيريا، كما يحافظ على درجة حرارة المياه مناسبة.</p>
   <h3>لماذا تحتاج إلى عزل خزان المياه؟</h3>
   <ul>
     <li><strong>حماية المياه من التلوث:</strong> يمنع العزل دخول الأتربة والحشرات والبكتيريا إلى المياه.</li>
@@ -246,7 +288,7 @@
     <li><strong>العزل بالبيتومين:</strong> يستخدم للعزل الخارجي للخزانات، ويوفر حماية ممتازة ضد تسربات المياه والرطوبة.</li>
     <li><strong>العزل الحراري:</strong> لمنع ارتفاع درجة حرارة المياه في الصيف، مما يحافظ على برودتها.</li>
   </ul>
-  <div style="text-align: center;">
+  <div class="center-button">
       <a href="tel:0561512622" class="contact-button">📞 اتصل الآن لعزل خزانك</a>
   </div>
 </section>
@@ -269,7 +311,7 @@
     <li>اختبار العزل بملء الحمام بالماء لمدة 24 ساعة للتأكد من عدم وجود أي تسرب.</li>
     <li>بعد التأكد من سلامة العزل، يتم البدء بتركيب البلاط بشكل احترافي.</li>
   </ol>
-  <div style="text-align: center;">
+  <div class="center-button">
       <a href="tel:0561512622" class="contact-button">📱 احجز خدمة عزل حمامك الآن</a>
   </div>
 </section>
@@ -283,7 +325,7 @@
     <li><strong>ضمان مكتوب:</strong> نقدم ضماناً حقيقياً يصل إلى 10 سنوات على خدمات العزل.</li>
     <li><strong>أسعار تنافسية:</strong> نقدم أفضل الأسعار في السوق مع عروض وخصومات مستمرة.</li>
   </ul>
-  <div style="text-align: center;">
+  <div class="center-button">
     <p style="font-weight: bold; font-size: 1.2em; color: #003366;">لا تتردد في الاتصال بنا للحصول على استشارة مجانية وتقدير للتكلفة.</p>
   </div>
 </section>
@@ -313,7 +355,7 @@
     </a>
   </div>
 </section>
-
+</div>
 <footer>
   <p><strong>©️ 2025 شركة كشف تسربات المياه بالرياض. جميع الحقوق محفوظة.</strong></p>
 </footer>
@@ -322,6 +364,5 @@
 <a class="whatsapp" href="https://wa.me/966561512622" target="_blank" aria-label="تواصل معنا عبر واتساب">
   تواصل واتساب
 </a>
-<meta name="google-site-verification" content="rZqZWLhoNMIMuiXajyqwjr2kxij8x6sEzoI3u_uQLUk" />
 </body>
 </html>
