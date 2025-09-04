@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="تعرف على شركة العزل الرائدة بالرياض. خبرة تزيد عن 10 سنوات في خدمات عزل الأسطح، الخزانات، والحمامات بأعلى معايير الجودة والضمان.">
+  <meta property="og:title" content="من نحن | شركة العزل الرائدة في الرياض">
+  <meta property="og:description" content="نحن فريق من الخبراء المتخصصين في حلول العزل المتكاملة. نلتزم بتقديم أفضل الخدمات لضمان حماية وراحة عملائنا في جميع أنحاء المملكة العربية السعودية.">
+  <title>من نحن | أفضل شركة عزل بالرياض - خبرة وجودة</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      direction: rtl;
+      background-color: #f8fafd;
+      color: #212121;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+    .top-promo-bar {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 1.1em;
+      font-weight: bold;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+    .top-promo-bar a {
+      color: #ffee58;
+      text-decoration: none;
+      border-bottom: 1px solid #ffee58;
+    }
+    .top-promo-bar span {
+      white-space: nowrap;
+      font-size: 0.9em;
+    }
+    header {
+      background: linear-gradient(90deg, #003366, #001a33);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      font-weight: bold;
+      color: white;
+    }
+    header p {
+      margin-top: 15px;
+      font-size: 1.2em;
+      color: white;
+    }
+    section {
+      background-color: white;
+      margin: 20px auto;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: right;
+    }
+    h2 {
+      background-color: #003366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 1.8em;
+      margin-top: 0;
+      text-align: center;
+    }
+    h3 {
+      color: #002244;
+      font-size: 1.4em;
+      margin-top: 25px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      text-align: right;
+    }
+    p {
+      font-size: 1.1em;
+      text-align: justify;
+    }
+    ul {
+      padding-right: 30px;
+      list-style-type: disc;
+    }
+    ul li {
+      margin-bottom: 12px;
+      color: #212121;
+      font-size: 1.1em;
+    }
+    .highlight {
+      color: #003366;
+      font-weight: bold;
+    }
+    .contact-button {
+      display: inline-block;
+      background-color: #ffffff;
+      color: #000000;
+      border: 2px solid #25d366;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-top: 15px;
+      transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+      text-align: center;
+    }
+    .contact-button:hover {
+        background-color: #25d366;
+        color: #ffffff;
+        border-color: #25d366;
+    }
+    .center-button {
+        text-align: center;
+    }
+    .whatsapp {
+      position: fixed;
+      bottom: 30px;
+      left: 20px;
+      background-color: #ffffff;
+      color: #000000;
+      border: 2px solid #25d366;
+      padding: 12px 25px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      z-index: 1000;
+      transition: transform 0.2s ease-in-out;
+      white-space: nowrap;
+    }
+    .whatsapp:hover {
+        transform: scale(1.05);
+        background-color: #25d366;
+        color: white;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: #fafafa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    @media (max-width: 767px) {
+      h1 {
+        font-size: 2em;
+      }
+      header p {
+        font-size: 1em;
+      }
+      .top-promo-bar span {
+        font-size: 0.8em;
+      }
+      .contact-button {
+        font-size: 0.9em;
+        padding: 10px 20px;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+      h3 {
+        font-size: 1.2em;
+      }
+      .whatsapp {
+        padding: 12px 20px;
+        font-size: 0.9em;
+        left: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="top-promo-bar">
+    <span>شركة كشف تسربات المياه بالرياض | <a href="tel:0561512622">اتصل الآن: 0561512622</a></span>
+    <span>خصم 20% على العملاء الجدد</span>
+    <span>عرض خاص: كشف مجاني عند الإصلاح</span>
+</div>
+<div class="container">
+<header>
+  <h1>من نحن؟</h1>
+  <p>أكثر من 10 سنوات من الخبرة في مجال العزل</p>
+</header>
+
+<section>
+  <h2>قصتنا: الريادة في عالم العزل</h2>
+  <p>
+    منذ تأسيس شركتنا، ونحن نضع نصب أعيننا هدفاً واحداً: أن نكون شريكك الموثوق في حماية منزلك وممتلكاتك. بدأت رحلتنا في مدينة الرياض، حاملين على عاتقنا مهمة تقديم أفضل حلول العزل التي تضمن أعلى مستويات الجودة والأمان. اليوم، نفخر بأن نكون إحدى الشركات الرائدة في مجال العزل المائي والحراري في جميع أنحاء المملكة العربية السعودية.
+  </p>
+  <p>
+    إن إيماننا بالجودة والاحترافية هو ما يدفعنا لتقديم خدماتنا. كل مشروع نقوم به، سواء كان عزل سطح منزل، أو خزان مياه، أو حمام، يتم تنفيذه بأقصى درجات العناية والالتزام. نحن لا نستخدم فقط أفضل المواد المعتمدة عالمياً، بل نعتمد أيضاً على فريق من الفنيين المدربين على أحدث التقنيات لضمان نتائج تدوم طويلاً.
+  </p>
+</section>
+
+<section>
+  <h2>لماذا تختارنا؟ قيمنا الأساسية</h2>
+  <p>
+    تستند خدماتنا إلى مجموعة من القيم التي نلتزم بها في كل خطوة:
+  </p>
+  <ul>
+    <li>
+      <span class="highlight">الاحترافية والخبرة:</span> يمتلك فريقنا خبرة تزيد عن 10 سنوات، مما يؤهلنا للتعامل مع كافة أنواع مشاريع العزل بفعالية.
+    </li>
+    <li>
+      <span class="highlight">الجودة أولاً:</span> نستخدم مواد عزل عالية الجودة (مثل الإيبوكسي والبيتومين) لضمان حماية فائقة وطويلة الأمد.
+    </li>
+    <li>
+      <span class="highlight">الشفافية والضمان:</span> نقدم لعملائنا ضماناً مكتوباً يصل إلى 10 سنوات على أعمالنا، مما يمنحك راحة البال والثقة.
+    </li>
+    <li>
+      <span class="highlight">الاستجابة السريعة:</span> ندرك أهمية حل مشاكل التسربات بسرعة، لذا نقدم خدماتنا في أقرب وقت ممكن.
+    </li>
+  </ul>
+</section>
+
+<section>
+  <h2>رؤيتنا ورسالتنا</h2>
+  <h3>رؤيتنا</h3>
+  <p>
+    أن نكون الخيار الأول لجميع الأفراد والشركات في المملكة العربية السعودية عندما يتعلق الأمر بخدمات العزل، وذلك من خلال الابتكار المستمر وتقديم حلول عزل صديقة للبيئة.
+  </p>
+  <h3>رسالتنا</h3>
+  <p>
+    تقديم خدمات عزل احترافية ومتكاملة تحمي المباني وتوفر الطاقة، وتساهم في بناء بيئة معيشية آمنة وصحية لعملائنا الكرام.
+  </p>
+</section>
+
+<section>
+  <h2>انضم إلى قائمة عملائنا الراضين</h2>
+  <p>
+    نحن هنا لخدمتك، سواء كنت بحاجة إلى عزل خزان جديد، أو إصلاح تسربات في حمام، أو حماية سطح منزلك من حرارة الصيف القاسية. ثق بخبرتنا ودعنا نعتني بمنزلك.
+  </p>
+  <div class="center-button">
+    <a href="tel:0561512622" class="contact-button">📞 اتصل بنا الآن</a>
+  </div>
+</section>
+</div>
+
+<footer>
+  <p><strong>©️ 2025 شركة كشف تسربات المياه بالرياض. جميع الحقوق محفوظة.</strong></p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/966561512622" target="_blank" aria-label="تواصل معنا عبر واتساب">
+  تواصل واتساب
+</a>
+
+</body>
+</html>
