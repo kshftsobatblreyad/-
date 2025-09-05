@@ -218,6 +218,28 @@
         background-color: #25d366;
         color: white;
     }
+    .custom-link-button {
+        display: inline-block;
+        background-color: #ffffff;
+        color: #000000;
+        border: 2px solid #25d366;
+        padding: 12px 25px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 1.1em;
+        margin-top: 15px;
+        transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    }
+    .custom-link-button:hover {
+      background-color: #25d366;
+      color: #ffffff;
+      border-color: #25d366;
+    }
+    .section-with-border {
+        border: 2px solid #25d366;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
     @media (max-width: 767px) {
       h1 {
         font-size: 2em;
@@ -228,7 +250,7 @@
       .top-promo-bar span {
         font-size: 0.8em;
       }
-      .contact-button {
+      .contact-button, .custom-link-button {
         font-size: 0.9em;
         padding: 10px 20px;
       }
@@ -241,6 +263,12 @@
       }
       h3 {
         font-size: 1.2em;
+      }
+      .service-box h3 {
+          font-size: 18px;
+      }
+      .service-box .contact-link {
+          font-size: 0.9em;
       }
     }
   </style>
@@ -259,7 +287,7 @@
 
   <main class="container">
 
-    <section>
+    <section class="section-with-border">
       <h2>نبذة عن شركتنا</h2>
       <p>
         تُعد شركتنا الرائدة في مجال <strong>كشف تسربات المياه والعزل بالرياض</strong>، 
@@ -271,11 +299,11 @@
         هدفنا الأساسي هو تقديم أعلى مستويات الجودة والاحترافية لجميع عملائنا في المملكة.
       </p>
       <div class="center-button">
-        <a href="tel:0561512622" class="contact-button">اتصل الآن واحصل على استشارة مجانية</a>
+        <a href="tel:0561512622" class="custom-link-button">اتصل الآن واحصل على استشارة مجانية</a>
       </div>
     </section>
     
-    <section>
+    <section class="section-with-border">
       <h2>رؤيتنا، رسالتنا، وقيمنا الأساسية</h2>
       <p>
         نؤمن بأن العمل الاحترافي يعتمد على رؤية واضحة وقيم راسخة، وهذا ما يميزنا في سوق الرياض.
@@ -296,9 +324,12 @@
         <li>✅ <strong>ضمان مكتوب على الخدمات:</strong> نضمن لك نتائج عملنا بفترة ضمان حقيقية.</li>
         <li>✅ <strong>الالتزام بالمواعيد:</strong> نحترم وقت العميل ونلتزم بالجدول الزمني المتفق عليه.</li>
       </ul>
+      <div class="center-button">
+        <a href="https://wa.me/966561512622" class="custom-link-button">تحدث مع خبير الآن عبر واتساب</a>
+      </div>
     </section>
 
-    <section>
+    <section class="section-with-border">
       <h2>خدماتنا الاحترافية المتكاملة</h2>
       <p>
         تتجاوز خدماتنا مجرد الكشف عن التسربات، لتشمل حلولاً شاملة تضمن حماية طويلة الأمد لمبانيكم.
@@ -308,32 +339,40 @@
         <p>
           نستخدم أجهزة متطورة مثل <strong>جهاز الاستشعار الصوتي</strong> والكاميرات الحرارية لتحديد مكان التسرب بدقة متناهية، سواء كان في الجدران، الأرضيات، أو الأسقف. هذه التقنيات تتيح لنا إصلاح المشكلة بأقل قدر من التلف ودون الحاجة للتكسير المفرط، مما يوفر عليك الوقت والمال.
         </p>
-        <a href="tel:0561512622" class="contact-link">لطلب خدمة كشف التسربات</a>
+        <div class="center-button">
+            <a href="tel:0561512622" class="custom-link-button">اتصل الآن لكشف تسربات منزلك</a>
+        </div>
       </div>
       <div class="service-box">
         <h3>2. عزل الأسطح (مائي وحراري)</h3>
         <p>
           حماية أسطح المباني أمر حيوي. نقدم <strong>عزل مائي</strong> يحمي من تسربات الأمطار والرطوبة، و<strong>عزل حراري</strong> يقلل من تأثير درجات الحرارة المرتفعة في الرياض، مما يخفض فواتير الكهرباء ويطيل عمر المبنى. نستخدم مواد عزل عالية الجودة مثل البيوتين والفوم، مع ضمان الأداء الفعال.
         </p>
-        <a href="https://wa.me/966561512622" class="contact-link">استفسر عن عزل الأسطح</a>
+        <div class="center-button">
+            <a href="tel:0561512622" class="custom-link-button">لطلب خدمة عزل الأسطح</a>
+        </div>
       </div>
       <div class="service-box">
         <h3>3. عزل الخزانات الأرضية والعلوية</h3>
         <p>
           عزل الخزان ضروري للحفاظ على نقاء المياه وصحة العائلة. نستخدم مواد عزل آمنة ومعتمدة من وزارة الصحة، تمنع تسرب المياه من وإلى الخزان، وتحميه من نمو الطحالب والبكتيريا. يشمل عملنا تنظيف وتعقيم الخزان قبل وبعد عملية العزل.
         </p>
-        <a href="tel:0561512622" class="contact-link">اتصل لطلب خدمة عزل الخزانات</a>
+        <div class="center-button">
+            <a href="tel:0561512622" class="custom-link-button">احمِ خزانك من التلوث الآن</a>
+        </div>
       </div>
       <div class="service-box">
         <h3>4. عزل الحمامات والمطابخ</h3>
         <p>
           تعد الحمامات والمطابخ أكثر الأماكن عرضة للتسربات. نقدم حلول عزل متخصصة لهذه المناطق الحساسة، باستخدام مواد مقاومة للرطوبة والمياه تضمن عدم حدوث أي تسربات مستقبلية قد تؤثر على البنية التحتية للمبنى.
         </p>
-        <a href="https://wa.me/966561512622" class="contact-link">تواصل عبر واتساب</a>
+        <div class="center-button">
+            <a href="https://wa.me/966561512622" class="custom-link-button">تواصل لعزل حمامك الآن</a>
+        </div>
       </div>
     </section>
     
-    <section>
+    <section class="section-with-border">
       <h2>لماذا نحن الخيار الأفضل لك في الرياض؟</h2>
       <p>
         عندما تختار شركتنا، فإنك لا تحصل على خدمة فحسب، بل تحصل على شراكة حقيقية مبنية على الثقة والاحترافية. إليك بعض الأسباب التي تجعلنا متميزين:
@@ -345,6 +384,9 @@
         <li>✔️ <strong>سرعة في التنفيذ:</strong> نصل إليك في أسرع وقت وننهي العمل بكفاءة.</li>
         <li>✔️ <strong>ضمان الجودة:</strong> نقدم ضماناً حقيقياً على جميع أعمال العزل والكشف.</li>
       </ul>
+      <div class="center-button">
+        <a href="tel:0561512622" class="custom-link-button">اطلب خدمتك الآن بضمان كامل</a>
+      </div>
     </section>
 
   </main>
@@ -357,4 +399,3 @@
 
 </body>
 </html>
-
