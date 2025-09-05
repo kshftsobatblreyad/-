@@ -4,7 +4,244 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>من نحن | شركة كشف تسربات وعزل بالرياض</title>
-  <link rel="stylesheet" href="style.css"> <!-- ربط ملف التنسيق -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      direction: rtl;
+      background-color: #f8fafd;
+      color: #212121;
+      line-height: 1.6;
+    }
+    .container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .top-promo-bar {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 15px 10px;
+      font-size: 1.1em;
+      font-weight: bold;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+    }
+    .top-promo-bar a {
+      color: #ffee58;
+      text-decoration: none;
+      border-bottom: 1px solid #ffee58;
+    }
+    .top-promo-bar span {
+        white-space: nowrap;
+        font-size: 0.9em;
+    }
+    @media (min-width: 768px) {
+      .top-promo-bar span {
+        font-size: 1.1em;
+      }
+    }
+    header {
+      background: linear-gradient(90deg, #003366, #001a33);
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      font-weight: bold;
+      color: white;
+    }
+    header p {
+      margin-top: 15px;
+      font-size: 1.2em;
+      color: white;
+    }
+    section {
+      background-color: white;
+      margin: 20px auto;
+      padding: 25px 15px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      text-align: right;
+    }
+    h2 {
+      background-color: #003366;
+      color: white;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-size: 1.8em;
+      margin-top: 0;
+      text-align: center;
+    }
+    h3 {
+        color: #002244;
+        font-size: 1.4em;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 5px;
+        text-align: right;
+    }
+    ul {
+      padding-right: 30px;
+      list-style-type: disc;
+      display: inline-block;
+      text-align: right;
+    }
+    ul li {
+      margin-bottom: 12px;
+      color: #212121;
+    }
+    .contact-button {
+      display: inline-block;
+      background-color: #ffffff;
+      color: #000000;
+      border: 2px solid #25d366;
+      padding: 12px 25px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      margin-top: 15px;
+      transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    }
+    .contact-button:hover {
+        background-color: #25d366;
+        color: #ffffff;
+        border-color: #25d366;
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: #fafafa;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    a {
+      color: #004085;
+      text-decoration: none;
+      border-bottom: 1px solid #004085;
+      transition: color 0.3s ease, border-bottom 0.3s ease;
+    }
+    a:hover {
+        color: #002244;
+        border-bottom-color: #002244;
+    }
+    .review-box {
+      background-color: #e6f2ff;
+      border-radius: 8px;
+      padding: 15px;
+      margin-bottom: 15px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      text-align: right;
+    }
+    .reviewer {
+      font-weight: bold;
+      color: #002244;
+      margin-bottom: 8px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .stars {
+        color: #ffc107;
+        font-size: 1.2em;
+    }
+    .service-box {
+      background-color: white;
+      border: 2px solid #003366;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: right;
+    }
+    .service-box h3 {
+      background-color: #003366;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-size: 20px;
+      margin-top: 0;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    .service-box p {
+      color: #212121;
+      line-height: 1.6;
+      margin-bottom: 10px;
+      text-align: right;
+    }
+    .service-box .contact-link {
+      display: inline-block;
+      background-color: #003366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 15px;
+      transition: background-color 0.3s ease;
+    }
+    .service-box .contact-link:hover {
+      background-color: #001a33;
+    }
+    .center-button {
+      text-align: center;
+    }
+    .floating-whatsapp-btn {
+        position: fixed;
+        bottom: 30px;
+        left: 20px;
+        z-index: 1000;
+        background-color: #ffffff;
+        color: #000000;
+        border: 2px solid #25d366;
+        text-align: center;
+        padding: 18px 35px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        transition: transform 0.2s ease-in-out;
+    }
+    .floating-whatsapp-btn:hover {
+        transform: scale(1.05);
+        background-color: #25d366;
+        color: white;
+    }
+    @media (max-width: 767px) {
+      h1 {
+        font-size: 2em;
+      }
+      header p {
+        font-size: 1em;
+      }
+      .top-promo-bar span {
+        font-size: 0.8em;
+      }
+      .contact-button {
+        font-size: 0.9em;
+        padding: 10px 20px;
+      }
+      .floating-whatsapp-btn {
+        padding: 12px 25px;
+        font-size: 0.9em;
+      }
+      h2 {
+        font-size: 1.5em;
+      }
+      h3 {
+        font-size: 1.2em;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -24,7 +261,7 @@
   <main class="container">
 
     <!-- فقرة تعريفية -->
-    <section class="content-section">
+    <section>
       <h2>نبذة عن الشركة</h2>
       <p>
         نحن شركة متخصصة في <strong>كشف التسربات وعزل الأسطح والخزانات والحمامات</strong> 
@@ -43,9 +280,6 @@
         أن نكون الشركة الأولى في المملكة بمجال العزل وكشف التسربات، 
         عبر تقديم جودة عالية، أسعار مناسبة، وضمان حقيقي على جميع خدماتنا.
       </p>
-      <div class="center-button">
-        <a href="https://wa.me/966561512622" class="contact-button">تواصل عبر واتساب</a>
-      </div>
     </section>
 
     <!-- الرسالة -->
@@ -68,7 +302,7 @@
       </ul>
     </section>
 
-    <!-- صناديق الخدمات -->
+    <!-- خدمات -->
     <section>
       <h2>خدماتنا</h2>
       <div class="service-box">
