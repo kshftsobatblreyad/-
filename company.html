@@ -1,383 +1,152 @@
 <!DOCTYPE html>
 <html lang="ar">
-    body {
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-      direction: rtl;
-      background-color: #f8fafd;
-      color: #212121;
-      line-height: 1.6;
-    }
-    .container {
-        max-width: 900px;
-        margin: 0 auto;
-        padding: 0 15px;
-    }
-    .top-promo-bar {
-      background-color: #003366;
-      color: white;
-      text-align: center;
-      padding: 15px 10px;
-      font-size: 1.1em;
-      font-weight: bold;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
-      gap: 15px;
-    }
-    .top-promo-bar a {
-      color: #ffee58;
-      text-decoration: none;
-      border-bottom: 1px solid #ffee58;
-    }
-    .top-promo-bar span {
-        white-space: nowrap;
-        font-size: 0.9em;
-    }
-    @media (min-width: 768px) {
-      .top-promo-bar span {
-        font-size: 1.1em;
-      }
-    }
-    header {
-      background: linear-gradient(90deg, #003366, #001a33);
-      color: white;
-      text-align: center;
-      padding: 40px 20px;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5em;
-      font-weight: bold;
-      color: white;
-    }
-    header p {
-      margin-top: 15px;
-      font-size: 1.2em;
-      color: white;
-    }
-    section {
-      background-color: white;
-      margin: 20px auto;
-      padding: 25px 15px;
-      border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-      text-align: right;
-    }
-    h2 {
-      background-color: #003366;
-      color: white;
-      padding: 12px 20px;
-      border-radius: 8px;
-      font-size: 1.8em;
-      margin-top: 0;
-      text-align: center;
-    }
-    h3 {
-        color: #002244;
-        font-size: 1.4em;
-        margin-top: 25px;
-        margin-bottom: 10px;
-        border-bottom: 2px solid #ccc;
-        padding-bottom: 5px;
-        text-align: right;
-    }
-    ul {
-      padding-right: 30px;
-      list-style-type: disc;
-      display: inline-block;
-      text-align: right;
-    }
-    ul li {
-      margin-bottom: 12px;
-      color: #212121;
-    }
-    .call-now {
-      background-color: #003366;
-      color: white;
-      text-align: center;
-      font-size: 1.3em;
-      padding: 18px;
-      border-radius: 10px;
-      margin-top: 25px;
-    }
-    .call-now a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    .contact-button {
-      display: inline-block;
-      background-color: #ffffff;
-      color: #000000;
-      border: 2px solid #25d366;
-      padding: 12px 25px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      font-size: 1.1em;
-      margin-top: 15px;
-      transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
-    }
-    .contact-button:hover {
-        background-color: #25d366;
-        color: #ffffff;
-        border-color: #25d366;
-    }
-    footer {
-      background-color: #1a1a1a;
-      color: #fafafa;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-    }
-    a {
-      color: #004085;
-      text-decoration: none;
-      border-bottom: 1px solid #004085;
-      transition: color 0.3s ease, border-bottom 0.3s ease;
-    }
-    a:hover {
-        color: #002244;
-        border-bottom-color: #002244;
-    }
-    .faq p strong {
-      color: #002244;
-    }
-    .review-box {
-      background-color: #e6f2ff;
-      border-radius: 8px;
-      padding: 15px;
-      margin-bottom: 15px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-      text-align: right;
-    }
-    .reviewer {
-      font-weight: bold;
-      color: #002244;
-      margin-bottom: 8px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .stars {
-        color: #ffc107;
-        font-size: 1.2em;
-    }
-    .service-box {
-      background-color: white;
-      border: 2px solid #003366;
-      border-radius: 12px;
-      padding: 20px;
-      margin-bottom: 20px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      text-align: right;
-    }
-    .service-box h3 {
-      background-color: #003366;
-      color: white;
-      padding: 10px 15px;
-      border-radius: 8px;
-      font-size: 20px;
-      margin-top: 0;
-      margin-bottom: 15px;
-      text-align: center;
-    }
-    .service-box p {
-      color: #212121;
-      line-height: 1.6;
-      margin-bottom: 10px;
-      text-align: right;
-    }
-    .service-box .contact-link {
-      display: inline-block;
-      background-color: #003366;
-      color: white;
-      padding: 10px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: bold;
-      margin-top: 15px;
-      transition: background-color 0.3s ease;
-    }
-    .service-box .contact-link:hover {
-      background-color: #001a33;
-    }
-    a:focus, button:focus, input:focus, select:focus, textarea:focus {
-        outline: 2px solid #ffeb3b;
-        outline-offset: 2px;
-    }
-    .social-media {
-        text-align: center;
-        padding: 20px;
-        background-color: #f1f3f6;
-        border-top: 1px solid #e0e0e0;
-    }
-    .social-media h3 {
-        color: #002244;
-        font-size: 1.4em;
-        margin-bottom: 15px;
-        border-bottom: none;
-        padding-bottom: 0;
-    }
-    .social-media-icons a {
-        display: inline-block;
-        font-size: 1.5em;
-        color: #003366;
-        margin: 0 10px;
-        text-decoration: none;
-        border: 2px solid #003366;
-        width: 40px;
-        height: 40px;
-        line-height: 38px;
-        border-radius: 50%;
-        transition: all 0.3s ease;
-        background-color: #ffffff;
-    }
-    .social-media-icons a:hover {
-        background-color: #003366;
-        color: #ffffff;
-    }
-    .floating-whatsapp-btn {
-        position: fixed;
-        bottom: 30px;
-        left: 20px;
-        z-index: 1000;
-        background-color: #ffffff;
-        color: #000000;
-        border: 2px solid #25d366;
-        text-align: center;
-        padding: 18px 35px;
-        border-radius: 30px;
-        text-decoration: none;
-        font-weight: bold;
-        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-        transition: transform 0.2s ease-in-out;
-    }
-    .floating-whatsapp-btn:hover {
-        transform: scale(1.05);
-        background-color: #25d366;
-        color: white;
-    }
-    .content-section p, .faq p {
-        text-align: right;
-    }
-    .center-button {
-      text-align: center;
-    }
-    /* تعديلات للهاتف */
-    @media (max-width: 767px) {
-      h1 {
-        font-size: 2em;
-      }
-      header p {
-        font-size: 1em;
-      }
-      .top-promo-bar span {
-        font-size: 0.8em;
-      }
-      .contact-button {
-        font-size: 0.9em;
-        padding: 10px 20px;
-      }
-      .floating-whatsapp-btn {
-        padding: 12px 25px;
-        font-size: 0.9em;
-      }
-      h2 {
-        font-size: 1.5em;
-      }
-      h3 {
-        font-size: 1.2em;
-      }
-    }
-    /* كود تنسيق الصورة */
-    .responsive-img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-  </style>
-  <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>من نحن | شركة عزل فوم وكشف تسربات المياة </title>
-  <link rel="stylesheet" href="style.css"> <!-- ربط ملف التنسيق الموحد -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>من نحن - شركة عزل فوم وكشف تسربات المياه</title>
+    <meta name="description" content="شركة عز الفوم هي أفضل شركة عزل فوم بالرياض. نقدم خدمات عزل فوم حراري ومائي، بالإضافة إلى خدمات كشف تسربات المياه بدون تكسير بأحدث الأجهزة.">
+    <meta name="keywords" content="شركة عزل فوم, عزل فوم بالرياض, أفضل شركة عزل فوم, كشف تسربات المياه, كشف تسربات بالرياض, عزل حراري, عزل مائي, تسربات المياه, كشف تسربات بدون تكسير, أسعار كشف التسربات">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            text-align: right;
+            direction: rtl;
+        }
+
+        .container {
+            width: 85%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+
+        header {
+            background: #004d99;
+            color: white;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #007bff 3px solid;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            padding-bottom: 10px;
+        }
+
+        .main-content {
+            background: #fff;
+            padding: 30px;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .main-content h2 {
+            color: #007bff;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 10px;
+        }
+
+        .main-content p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #e9ecef;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-left: 5px solid #007bff;
+            border-radius: 5px;
+        }
+        
+        .service-list {
+            list-style-type: disc;
+            padding-right: 20px;
+        }
+        
+        .service-list li {
+            background: none;
+            border-left: none;
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+        }
+    </style>
 </head>
 <body>
-  <!-- شريط علوي -->
-  <div class="top-promo-bar">
-    <span>شركة كشف تسربات وعزل بالرياض</span>
-    <span>|</span>
-    <a href="tel:0561512622">📞 0561512622</a>
-  </div>
 
-  <!-- الهيدر -->
-  <header>
-    <h1>من نحن</h1>
-    <p>خبرة أكثر من 10 سنوات في كشف التسربات وحلول العزل المتكاملة</p>
-  </header>
+    <header>
+        <h1>من نحن - شركة عز الفوم لخدمات العزل والكشف عن التسربات</h1>
+    </header>
 
-  <main class="container">
+    <div class="container">
+        <section class="main-content">
+            <h2>مقدمة عن شركتنا</h2>
+            <p>
+                نحن في **شركة عز الفوم** نفخر بأن نكون **أفضل شركة عزل فوم بالرياض**. نكرس جهودنا لتقديم **خدمات عزل فوم** عالية الجودة التي تلبي احتياجات عملائنا الكرام. خبرتنا الواسعة في مجال **العزل الحراري** و**العزل المائي** تجعلنا الخيار الأمثل لحماية منزلك أو منشأتك من العوامل الجوية المختلفة.
+            </p>
+            
+            <p>
+                بالإضافة إلى خدمات العزل، نقدم حلولًا متكاملة لمشكلة **تسربات المياه**. فريقنا المتخصص يستخدم أحدث التقنيات للكشف عن التسربات بدقة وفعالية.
+            </p>
 
-    <!-- فقرة تعريفية -->
-    <section>
-      <h2>نبذة عنا</h2>
-      <p>
-        نحن شركة رائدة في مجال كشف التسربات وعزل الأسطح والخزانات والحمامات، 
-        نعتمد على أحدث التقنيات الحديثة مع فريق متخصص يقدم خدمات بجودة عالية وضمان مكتوب.
-      </p>
-      <div class="center-button">
-        <a href="tel:0561512622" class="contact-button">اتصل الآن</a>
-      </div>
-    </section>
+            <h2>خدماتنا المتخصصة</h2>
+            <p>
+                نقدم مجموعة شاملة من الخدمات التي تشمل:
+            </p>
+            <ul>
+                <li><strong>عزل فوم حراري:</strong> لحماية المباني من درجات الحرارة المرتفعة وتوفير الطاقة.</li>
+                <li><strong>عزل فوم مائي:</strong> لمنع تسربات المياه وحماية الأسطح من التلف.</li>
+                <li><strong>عزل فوم شينكو:</strong> حلول متخصصة لأسطح الشينكو المعدنية.</li>
+            </ul>
+            
+            <h2>كشف تسربات المياه بدون تكسير</h2>
+            <p>
+                نعتبر **أفضل شركة كشف تسربات المياه بالرياض**. نستخدم أجهزة حديثة ومتطورة **للكشف عن تسربات المياه** بدقة عالية وبدون الحاجة إلى أي تكسير، مما يوفر عليك الوقت والجهد والمال. تشمل خدماتنا:
+            </p>
+            <ul class="service-list">
+                <li>كشف تسربات الحمامات والمطابخ</li>
+                <li>كشف تسربات شبكات المياه والصرف الصحي</li>
+                <li>كشف تسربات الخزانات والمسابح</li>
+            </ul>
+            <p>
+                إذا كنت تعاني من ارتفاع فاتورة المياه أو ظهور علامات الرطوبة، فنحن الحل الأمثل لك. نقدم **أسعار كشف تسربات المياه** تنافسية مع تقرير مفصل عن حالة التسرب والحلول المقترحة.
+            </p>
 
-    <!-- الرؤية -->
-    <section>
-      <h2>رؤيتنا</h2>
-      <p>
-        أن نكون الخيار الأول لعملائنا في مجال العزل وكشف التسربات بالمملكة، 
-        من خلال تقديم حلول مبتكرة ومستدامة تضمن راحة العملاء وحماية ممتلكاتهم.
-      </p>
-      <div class="center-button">
-        <a href="https://wa.me/966561512622" class="contact-button">تواصل واتساب</a>
-      </div>
-    </section>
+            <h2>لماذا تختار شركتنا؟</h2>
+            <p>
+                باعتبارنا **مقاول عزل فوم** و**مختصين في كشف التسربات**، نلتزم بالدقة في العمل والالتزام بالمواعيد. فريقنا من **الخبراء** مدرب على أعلى مستوى لضمان تنفيذ أعمال العزل والكشف بكفاءة وفعالية.
+            </p>
 
-    <!-- رسالتنا -->
-    <section>
-      <h2>رسالتنا</h2>
-      <p>
-        تقديم خدمات بجودة عالية وبأسعار تنافسية، مع الالتزام بالشفافية والمصداقية 
-        وضمان راحة عملائنا على المدى الطويل.
-      </p>
-      <div class="center-button">
-        <a href="tel:0561512622" class="contact-button">احجز خدمة</a>
-      </div>
-    </section>
+            <p>
+                هدفنا هو تحقيق رضاكم التام من خلال تقديم حلول متكاملة تدوم طويلاً وتوفر لكم الراحة والأمان.
+            </p>
+        </section>
+    </div>
 
-    <!-- القيم -->
-    <section>
-      <h2>قيمنا</h2>
-      <ul>
-        <li>✅ الجودة أولاً</li>
-        <li>✅ المصداقية والالتزام</li>
-        <li>✅ خدمة عملاء متميزة</li>
-        <li>✅ أسعار مناسبة وضمان حقيقي</li>
-      </ul>
-    </section>
+    <footer>
+        &copy; 2025 عز الفوم لخدمات العزل والكشف عن التسربات. جميع الحقوق محفوظة.
+    </footer>
 
-  </main>
-
-  <!-- واتساب ثابت -->
-  <a href="https://wa.me/966561512622" class="whatsapp">💬 تواصل عبر واتساب</a>
-
-  <!-- الفوتر -->
-  <footer>
-    <p>جميع الحقوق محفوظة © 2025 | شركة كشف تسربات وعزل بالرياض</p>
-  </footer>
 </body>
 </html>
